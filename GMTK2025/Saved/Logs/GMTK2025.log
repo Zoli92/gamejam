@@ -1942,3 +1942,459 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.08.02-13.10.03:804][126]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
 [2025.08.02-13.10.03:854][127]LogPlayLevel: Display: Destroying online subsystem :Context_12
 [2025.08.02-13.10.17:727][226]LogDerivedDataCache: C:/Users/Bello/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.08.02-13.11.32:569][450]LogShaderCompilers: Display: ================================================
+[2025.08.02-13.11.32:569][450]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.08.02-13.11.32:569][450]LogShaderCompilers: Display: Total job queries 448, among them cache hits 64 (14.29%), DDC hits 285 (63.62%), Duplicates 78 (17.41%)
+[2025.08.02-13.11.32:569][450]LogShaderCompilers: Display: Tracking 306 distinct input hashes that result in 216 distinct outputs (70.59%)
+[2025.08.02-13.11.32:569][450]LogShaderCompilers: Display: RAM used: 3.06 MiB of 819.20 MiB budget. Usage: 0.37%
+[2025.08.02-13.11.32:569][450]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.08.02-13.11.32:569][450]LogShaderCompilers: Display: Shaders Compiled: 21
+[2025.08.02-13.11.32:569][450]LogShaderCompilers: Display: Jobs assigned 21, completed 21 (100%)
+[2025.08.02-13.11.32:569][450]LogShaderCompilers: Display: Average time worker was idle: 11.19 s
+[2025.08.02-13.11.32:569][450]LogShaderCompilers: Display: Time job spent in pending queue: average 0.12 s, longest 1.45 s
+[2025.08.02-13.11.32:569][450]LogShaderCompilers: Display: Job execution time: average 2.04 s, max 3.28 s
+[2025.08.02-13.11.32:569][450]LogShaderCompilers: Display: Job life time (pending + execution): average 2.16 s, max 3.39
+[2025.08.02-13.11.32:569][450]LogShaderCompilers: Display: Shader code size: total 170.098 KiB, numShaders 21, average 8.1 KiB, min 4.332 KiB, max 9.461 KiB
+[2025.08.02-13.11.32:569][450]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 5.55 s
+[2025.08.02-13.11.32:569][450]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.01%
+[2025.08.02-13.11.32:569][450]LogShaderCompilers: Display: Jobs were issued in 16 batches (only local compilation was used), average 1.31 jobs/batch
+[2025.08.02-13.11.32:569][450]LogShaderCompilers: Display: Average processing rate: 3.78 jobs/sec
+[2025.08.02-13.11.32:569][450]LogShaderCompilers: Display: Total thread time: 25.761 s
+[2025.08.02-13.11.32:569][450]LogShaderCompilers: Display: Total thread preprocess time: 6.928 s
+[2025.08.02-13.11.32:569][450]LogShaderCompilers: Display: Percentage time preprocessing: 26.89%
+[2025.08.02-13.11.32:570][450]LogShaderCompilers: Display: Effective parallelization: 4.64 (times faster than compiling all shaders on one thread). Compare with number of workers: 8 - 0.580095
+[2025.08.02-13.11.32:570][450]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.08.02-13.11.32:570][450]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    6 times, average 1.98 sec, max 2.09 sec, min 1.90 sec)
+[2025.08.02-13.11.32:570][450]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    6 times, average 1.01 sec, max 1.04 sec, min 0.97 sec)
+[2025.08.02-13.11.32:570][450]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    6 times, average 0.99 sec, max 1.04 sec, min 0.87 sec)
+[2025.08.02-13.11.32:570][450]LogShaderCompilers: Display:                                                 FLumenCardPS (compiled    3 times, average 0.64 sec, max 0.68 sec, min 0.58 sec)
+[2025.08.02-13.11.32:570][450]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.08.02-13.11.32:570][450]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.08.02-13.11.32:570][450]LogShaderCompilers: Display:                                             FDebugViewModePS - 46.06% of total time (compiled    6 times, average 1.98 sec, max 2.09 sec, min 1.90 sec)
+[2025.08.02-13.11.32:570][450]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 23.47% of total time (compiled    6 times, average 1.01 sec, max 1.04 sec, min 0.97 sec)
+[2025.08.02-13.11.32:570][450]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 23.03% of total time (compiled    6 times, average 0.99 sec, max 1.04 sec, min 0.87 sec)
+[2025.08.02-13.11.32:570][450]LogShaderCompilers: Display:                                                 FLumenCardPS - 7.44% of total time (compiled    3 times, average 0.64 sec, max 0.68 sec, min 0.58 sec)
+[2025.08.02-13.11.32:570][450]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2025.08.02-13.11.32:570][450]LogShaderCompilers: Display: === Material stats ===
+[2025.08.02-13.11.32:570][450]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.08.02-13.11.32:570][450]LogShaderCompilers: Display: Materials Translated:    169
+[2025.08.02-13.11.32:570][450]LogShaderCompilers: Display: Material Total Translate Time: 0.12 s
+[2025.08.02-13.11.32:570][450]LogShaderCompilers: Display: Material Translation Only: 0.06 s (45%)
+[2025.08.02-13.11.32:570][450]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (2%)
+[2025.08.02-13.11.32:570][450]LogShaderCompilers: Display: Material Cache Hits: 31 (18%)
+[2025.08.02-13.11.32:570][450]LogShaderCompilers: Display: ================================================
+[2025.08.02-13.12.19:022][590]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_10
+[2025.08.02-13.12.19:609][616]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.08.02-13.12.19:614][616]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.08.02-13.12.19:614][616]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_L_Test
+[2025.08.02-13.12.19:694][616]LogPlayLevel: PIE: StaticDuplicateObject took: (0.079214s)
+[2025.08.02-13.12.19:694][616]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/L_Test.L_Test to /Game/Level/UEDPIE_0_L_Test.L_Test (0.079259s)
+[2025.08.02-13.12.19:714][616]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2025.08.02-13.12.19:716][616]LogChaosDD: Creating Chaos Debug Draw Scene for world L_Test
+[2025.08.02-13.12.19:718][616]LogPlayLevel: PIE: World Init took: (0.001734s)
+[2025.08.02-13.12.19:719][616]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2025.08.02-13.12.19:719][616]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.08.02-13.12.19:719][616]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.08.02-13.12.19:719][616]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.08.02-13.12.19:719][616]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.08.02-13.12.19:719][616]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.08.02-13.12.19:719][616]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.08.02-13.12.19:719][616]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.08.02-13.12.19:719][616]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.08.02-13.12.19:719][616]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.08.02-13.12.19:719][616]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.08.02-13.12.19:719][616]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.08.02-13.12.19:721][616]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.08.02-13.12.19:736][616]LogAudioMixer: Display: Using Audio Hardware Device Headphones (High Definition Audio Device)
+[2025.08.02-13.12.19:736][616]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.08.02-13.12.19:736][616]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.08.02-13.12.19:736][616]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.08.02-13.12.19:738][616]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2025.08.02-13.12.19:738][616]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2025.08.02-13.12.19:740][616]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2025.08.02-13.12.19:740][616]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2025.08.02-13.12.19:740][616]LogInit: FAudioDevice initialized with ID 4.
+[2025.08.02-13.12.19:741][616]LogAudio: Display: Audio Device (ID: 4) registered with world 'L_Test'.
+[2025.08.02-13.12.19:741][616]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2025.08.02-13.12.19:744][616]LogLoad: Game class is 'BP_DefaultGamemode_C'
+[2025.08.02-13.12.19:748][616]LogWorld: Bringing World /Game/Level/UEDPIE_0_L_Test.L_Test up for play (max tick rate 60) at 2025.08.02-15.12.19
+[2025.08.02-13.12.19:750][616]LogWorld: Bringing up level for play took: 0.004443
+[2025.08.02-13.12.19:753][616]LogOnline: OSS: Created online subsystem instance for: :Context_14
+[2025.08.02-13.12.19:754][616]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'PermArray' of length 0 in '/Game/Blueprints/Objectives/ItemSpawner/ItemSpawner.ItemSpawner_C'!
+[2025.08.02-13.12.19:754][616]LogScript: Warning: Script Msg called by: ItemSpawner_C /Game/Level/UEDPIE_0_L_Test.L_Test:PersistentLevel.ItemSpawner_C_1
+[2025.08.02-13.12.19:755][616]LogScript: Warning: Script Msg: Attempted to access index 1 from array 'PermArray' of length 0 in '/Game/Blueprints/Objectives/ItemSpawner/ItemSpawner.ItemSpawner_C'!
+[2025.08.02-13.12.19:755][616]LogScript: Warning: Script Msg called by: ItemSpawner_C /Game/Level/UEDPIE_0_L_Test.L_Test:PersistentLevel.ItemSpawner_C_1
+[2025.08.02-13.12.19:755][616]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'PermArray' of length 0 in '/Game/Blueprints/Objectives/ItemSpawner/ItemSpawner.ItemSpawner_C'!
+[2025.08.02-13.12.19:755][616]LogScript: Warning: Script Msg called by: ItemSpawner_C /Game/Level/UEDPIE_0_L_Test.L_Test:PersistentLevel.ItemSpawner_C_1
+[2025.08.02-13.12.19:755][616]LogScript: Warning: Script Msg: Attempted to access index 3 from array 'PermArray' of length 0 in '/Game/Blueprints/Objectives/ItemSpawner/ItemSpawner.ItemSpawner_C'!
+[2025.08.02-13.12.19:755][616]LogScript: Warning: Script Msg called by: ItemSpawner_C /Game/Level/UEDPIE_0_L_Test.L_Test:PersistentLevel.ItemSpawner_C_1
+[2025.08.02-13.12.19:755][616]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'PermArray' of length 0 in '/Game/Blueprints/Objectives/ItemSpawner/ItemSpawner.ItemSpawner_C'!
+[2025.08.02-13.12.19:755][616]LogScript: Warning: Script Msg called by: ItemSpawner_C /Game/Level/UEDPIE_0_L_Test.L_Test:PersistentLevel.ItemSpawner_C_1
+[2025.08.02-13.12.19:755][616]LogScript: Warning: Script Msg: Attempted to access index 5 from array 'PermArray' of length 0 in '/Game/Blueprints/Objectives/ItemSpawner/ItemSpawner.ItemSpawner_C'!
+[2025.08.02-13.12.19:755][616]LogScript: Warning: Script Msg called by: ItemSpawner_C /Game/Level/UEDPIE_0_L_Test.L_Test:PersistentLevel.ItemSpawner_C_1
+[2025.08.02-13.12.19:756][616]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2025.08.02-13.12.19:756][616]r.VSync = "1"
+[2025.08.02-13.12.19:757][616]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] CoffeeMachine
+[2025.08.02-13.12.19:758][616]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] Vase1
+[2025.08.02-13.12.19:758][616]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] ToiletBrush
+[2025.08.02-13.12.19:759][616]PIE: Server logged in
+[2025.08.02-13.12.19:761][616]PIE: Play in editor total start time 0.147 seconds.
+[2025.08.02-13.12.19:762][616]LogScript: Warning: Script Msg: Attempted to access index 3 from array 'RequiredItems' of length 3 in '/Game/Blueprints/UI/Phone/WBP_Phone.WBP_Phone_C'!
+[2025.08.02-13.12.19:762][616]LogScript: Warning: Script Msg called by: WBP_Phone_C /Engine/Transient.UnrealEdEngine_0:BP_GameInstance_C_2.WBP_Phone_C_0
+[2025.08.02-13.12.41:455][915]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.08.02-13.12.41:455][915]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_L_Test
+[2025.08.02-13.12.41:455][915]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.08.02-13.12.41:456][915]LogWorld: UWorld::CleanupWorld for L_Test, bSessionEnded=true, bCleanupResources=true
+[2025.08.02-13.12.41:456][915]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.02-13.12.41:459][915]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.08.02-13.12.41:462][915]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.02-13.12.41:480][915]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.08.02-13.12.41:481][915]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2025.08.02-13.12.41:481][915]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4, StreamState=4
+[2025.08.02-13.12.41:483][915]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4, StreamState=2
+[2025.08.02-13.12.41:491][915]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2025.08.02-13.12.41:585][916]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2025.08.02-13.12.56:985][ 66]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.08.02-13.12.56:990][ 66]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.08.02-13.12.56:990][ 66]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_L_Test
+[2025.08.02-13.12.57:068][ 66]LogPlayLevel: PIE: StaticDuplicateObject took: (0.078023s)
+[2025.08.02-13.12.57:068][ 66]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/L_Test.L_Test to /Game/Level/UEDPIE_0_L_Test.L_Test (0.078061s)
+[2025.08.02-13.12.57:088][ 66]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2025.08.02-13.12.57:089][ 66]LogChaosDD: Creating Chaos Debug Draw Scene for world L_Test
+[2025.08.02-13.12.57:091][ 66]LogPlayLevel: PIE: World Init took: (0.001779s)
+[2025.08.02-13.12.57:092][ 66]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2025.08.02-13.12.57:092][ 66]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.08.02-13.12.57:092][ 66]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.08.02-13.12.57:092][ 66]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.08.02-13.12.57:092][ 66]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.08.02-13.12.57:092][ 66]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.08.02-13.12.57:092][ 66]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.08.02-13.12.57:092][ 66]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.08.02-13.12.57:092][ 66]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.08.02-13.12.57:092][ 66]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.08.02-13.12.57:092][ 66]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.08.02-13.12.57:092][ 66]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.08.02-13.12.57:094][ 66]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.08.02-13.12.57:108][ 66]LogAudioMixer: Display: Using Audio Hardware Device Headphones (High Definition Audio Device)
+[2025.08.02-13.12.57:108][ 66]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.08.02-13.12.57:108][ 66]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.08.02-13.12.57:108][ 66]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.08.02-13.12.57:109][ 66]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2025.08.02-13.12.57:109][ 66]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2025.08.02-13.12.57:113][ 66]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2025.08.02-13.12.57:113][ 66]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2025.08.02-13.12.57:113][ 66]LogInit: FAudioDevice initialized with ID 5.
+[2025.08.02-13.12.57:113][ 66]LogAudio: Display: Audio Device (ID: 5) registered with world 'L_Test'.
+[2025.08.02-13.12.57:113][ 66]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2025.08.02-13.12.57:116][ 66]LogLoad: Game class is 'BP_DefaultGamemode_C'
+[2025.08.02-13.12.57:120][ 66]LogWorld: Bringing World /Game/Level/UEDPIE_0_L_Test.L_Test up for play (max tick rate 60) at 2025.08.02-15.12.57
+[2025.08.02-13.12.57:121][ 66]LogWorld: Bringing up level for play took: 0.004464
+[2025.08.02-13.12.57:124][ 66]LogOnline: OSS: Created online subsystem instance for: :Context_15
+[2025.08.02-13.12.57:126][ 66]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'PermArray' of length 0 in '/Game/Blueprints/Objectives/ItemSpawner/ItemSpawner.ItemSpawner_C'!
+[2025.08.02-13.12.57:126][ 66]LogScript: Warning: Script Msg called by: ItemSpawner_C /Game/Level/UEDPIE_0_L_Test.L_Test:PersistentLevel.ItemSpawner_C_1
+[2025.08.02-13.12.57:126][ 66]LogScript: Warning: Script Msg: Attempted to access index 1 from array 'PermArray' of length 0 in '/Game/Blueprints/Objectives/ItemSpawner/ItemSpawner.ItemSpawner_C'!
+[2025.08.02-13.12.57:126][ 66]LogScript: Warning: Script Msg called by: ItemSpawner_C /Game/Level/UEDPIE_0_L_Test.L_Test:PersistentLevel.ItemSpawner_C_1
+[2025.08.02-13.12.57:127][ 66]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'PermArray' of length 0 in '/Game/Blueprints/Objectives/ItemSpawner/ItemSpawner.ItemSpawner_C'!
+[2025.08.02-13.12.57:127][ 66]LogScript: Warning: Script Msg called by: ItemSpawner_C /Game/Level/UEDPIE_0_L_Test.L_Test:PersistentLevel.ItemSpawner_C_1
+[2025.08.02-13.12.57:127][ 66]LogScript: Warning: Script Msg: Attempted to access index 3 from array 'PermArray' of length 0 in '/Game/Blueprints/Objectives/ItemSpawner/ItemSpawner.ItemSpawner_C'!
+[2025.08.02-13.12.57:127][ 66]LogScript: Warning: Script Msg called by: ItemSpawner_C /Game/Level/UEDPIE_0_L_Test.L_Test:PersistentLevel.ItemSpawner_C_1
+[2025.08.02-13.12.57:127][ 66]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'PermArray' of length 0 in '/Game/Blueprints/Objectives/ItemSpawner/ItemSpawner.ItemSpawner_C'!
+[2025.08.02-13.12.57:127][ 66]LogScript: Warning: Script Msg called by: ItemSpawner_C /Game/Level/UEDPIE_0_L_Test.L_Test:PersistentLevel.ItemSpawner_C_1
+[2025.08.02-13.12.57:127][ 66]LogScript: Warning: Script Msg: Attempted to access index 5 from array 'PermArray' of length 0 in '/Game/Blueprints/Objectives/ItemSpawner/ItemSpawner.ItemSpawner_C'!
+[2025.08.02-13.12.57:127][ 66]LogScript: Warning: Script Msg called by: ItemSpawner_C /Game/Level/UEDPIE_0_L_Test.L_Test:PersistentLevel.ItemSpawner_C_1
+[2025.08.02-13.12.57:128][ 66]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2025.08.02-13.12.57:128][ 66]r.VSync = "1"
+[2025.08.02-13.12.57:129][ 66]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] ToiletBrush
+[2025.08.02-13.12.57:129][ 66]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] Vase1
+[2025.08.02-13.12.57:129][ 66]LogBlueprintUserMessages: [BP_PlayerCharacter_C_0] Vase1
+[2025.08.02-13.12.57:130][ 66]PIE: Server logged in
+[2025.08.02-13.12.57:132][ 66]PIE: Play in editor total start time 0.142 seconds.
+[2025.08.02-13.12.57:134][ 66]LogScript: Warning: Script Msg: Attempted to access index 3 from array 'RequiredItems' of length 3 in '/Game/Blueprints/UI/Phone/WBP_Phone.WBP_Phone_C'!
+[2025.08.02-13.12.57:134][ 66]LogScript: Warning: Script Msg called by: WBP_Phone_C /Engine/Transient.UnrealEdEngine_0:BP_GameInstance_C_3.WBP_Phone_C_0
+[2025.08.02-13.12.57:151][ 67]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.165101 > MaxSimulationTimeStep (0.050) for 'BP_EnemyAI_C_5', movement 'Walking'
+[2025.08.02-13.12.58:115][122]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.08.02-13.12.58:115][122]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_L_Test
+[2025.08.02-13.12.58:115][122]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.08.02-13.12.58:115][122]LogWorld: UWorld::CleanupWorld for L_Test, bSessionEnded=true, bCleanupResources=true
+[2025.08.02-13.12.58:116][122]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.02-13.12.58:118][122]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.08.02-13.12.58:121][122]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.02-13.12.58:137][122]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.08.02-13.12.58:137][122]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2025.08.02-13.12.58:137][122]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5, StreamState=4
+[2025.08.02-13.12.58:141][122]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5, StreamState=2
+[2025.08.02-13.12.58:150][122]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2025.08.02-13.12.58:243][123]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2025.08.02-13.13.24:031][254]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2025.08.02-13.13.51:471][254]LogSlate: Window 'Save Content' being destroyed
+[2025.08.02-13.13.51:663][254]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.08.02-13.13.51:688][254]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/L_Test" FILE="D:/gamejam2/gamejam/GMTK2025/Content/Level/L_Test.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.08.02-13.13.51:743][254]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2025.08.02-13.13.51:797][254]LogSavePackage: Moving output files for package: /Game/Level/L_Test
+[2025.08.02-13.13.51:798][254]LogSavePackage: Moving 'D:/gamejam2/gamejam/GMTK2025/Saved/L_TestB5785ED24D97F59D774C96BF31F06617.tmp' to 'D:/gamejam2/gamejam/GMTK2025/Content/Level/L_Test.umap'
+[2025.08.02-13.13.51:812][254]LogFileHelpers: Saving map 'L_Test' took 0.126
+[2025.08.02-13.13.51:812][254]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/BlenderASSets/Character/AnimatedGuy] ([1] browsable assets)...
+[2025.08.02-13.13.51:814][254]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_11
+[2025.08.02-13.13.51:968][254]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/Assets/BlenderASSets/Character/AnimatedGuy.AnimatedGuy]
+[2025.08.02-13.13.51:968][254]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/BlenderASSets/Character/AnimatedGuy]
+[2025.08.02-13.13.51:968][254]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/BlenderASSets/Character/AnimatedGuy" FILE="D:/gamejam2/gamejam/GMTK2025/Content/Assets/BlenderASSets/Character/AnimatedGuy.uasset" SILENT=true
+[2025.08.02-13.13.51:983][254]LogSavePackage: Moving output files for package: /Game/Assets/BlenderASSets/Character/AnimatedGuy
+[2025.08.02-13.13.51:983][254]LogSavePackage: Moving 'D:/gamejam2/gamejam/GMTK2025/Saved/AnimatedGuy80E5210E4296929A8121ACBA25800BAA.tmp' to 'D:/gamejam2/gamejam/GMTK2025/Content/Assets/BlenderASSets/Character/AnimatedGuy.uasset'
+[2025.08.02-13.13.51:985][254]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/BlenderASSets/Character/AnimatedGuy1] ([1] browsable assets)...
+[2025.08.02-13.13.51:985][254]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_12
+[2025.08.02-13.13.52:024][254]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/Assets/BlenderASSets/Character/AnimatedGuy1.AnimatedGuy1]
+[2025.08.02-13.13.52:024][254]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/BlenderASSets/Character/AnimatedGuy1]
+[2025.08.02-13.13.52:024][254]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/BlenderASSets/Character/AnimatedGuy1" FILE="D:/gamejam2/gamejam/GMTK2025/Content/Assets/BlenderASSets/Character/AnimatedGuy1.uasset" SILENT=true
+[2025.08.02-13.13.52:039][254]LogSavePackage: Moving output files for package: /Game/Assets/BlenderASSets/Character/AnimatedGuy1
+[2025.08.02-13.13.52:039][254]LogSavePackage: Moving 'D:/gamejam2/gamejam/GMTK2025/Saved/AnimatedGuy1355E1D7948D8452AF1A21EB2E54C07C0.tmp' to 'D:/gamejam2/gamejam/GMTK2025/Content/Assets/BlenderASSets/Character/AnimatedGuy1.uasset'
+[2025.08.02-13.13.52:040][254]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/BlenderASSets/Character/AnimatedGuy_Anim_Mom_RootAction] ([1] browsable assets)...
+[2025.08.02-13.13.52:040][254]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_13
+[2025.08.02-13.13.52:071][254]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Assets/BlenderASSets/Character/AnimatedGuy_Anim_Mom_RootAction.AnimatedGuy_Anim_Mom_RootAction]
+[2025.08.02-13.13.52:071][254]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/BlenderASSets/Character/AnimatedGuy_Anim_Mom_RootAction]
+[2025.08.02-13.13.52:087][254]LogSavePackage: Moving output files for package: /Game/Assets/BlenderASSets/Character/AnimatedGuy_Anim_Mom_RootAction
+[2025.08.02-13.13.52:087][254]LogSavePackage: Moving 'D:/gamejam2/gamejam/GMTK2025/Saved/AnimatedGuy_Anim_Mom_RootActionD1C73E084004C3FC68C5D48F91B14AAA.tmp' to 'D:/gamejam2/gamejam/GMTK2025/Content/Assets/BlenderASSets/Character/AnimatedGuy_Anim_Mom_RootAction.uasset'
+[2025.08.02-13.13.52:088][254]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/BlenderASSets/Character/AnimatedGuy_Anim_Mom_RootAction_001] ([1] browsable assets)...
+[2025.08.02-13.13.52:098][254]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Assets/BlenderASSets/Character/AnimatedGuy_Anim_Mom_RootAction_001.AnimatedGuy_Anim_Mom_RootAction_001]
+[2025.08.02-13.13.52:098][254]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/BlenderASSets/Character/AnimatedGuy_Anim_Mom_RootAction_001]
+[2025.08.02-13.13.52:112][254]LogSavePackage: Moving output files for package: /Game/Assets/BlenderASSets/Character/AnimatedGuy_Anim_Mom_RootAction_001
+[2025.08.02-13.13.52:112][254]LogSavePackage: Moving 'D:/gamejam2/gamejam/GMTK2025/Saved/AnimatedGuy_Anim_Mom_RootAction_B48EF55C4B2DC88859CBFD82355C4CB6.tmp' to 'D:/gamejam2/gamejam/GMTK2025/Content/Assets/BlenderASSets/Character/AnimatedGuy_Anim_Mom_RootAction_001.uasset'
+[2025.08.02-13.13.52:114][254]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/BlenderASSets/Character/AnimatedGuy_Anim_Mom_mixamo_com] ([1] browsable assets)...
+[2025.08.02-13.13.52:125][254]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Assets/BlenderASSets/Character/AnimatedGuy_Anim_Mom_mixamo_com.AnimatedGuy_Anim_Mom_mixamo_com]
+[2025.08.02-13.13.52:125][254]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/BlenderASSets/Character/AnimatedGuy_Anim_Mom_mixamo_com]
+[2025.08.02-13.13.52:139][254]LogSavePackage: Moving output files for package: /Game/Assets/BlenderASSets/Character/AnimatedGuy_Anim_Mom_mixamo_com
+[2025.08.02-13.13.52:139][254]LogSavePackage: Moving 'D:/gamejam2/gamejam/GMTK2025/Saved/AnimatedGuy_Anim_Mom_mixamo_comEF41BA9A44FC8984C6E5FE911455643F.tmp' to 'D:/gamejam2/gamejam/GMTK2025/Content/Assets/BlenderASSets/Character/AnimatedGuy_Anim_Mom_mixamo_com.uasset'
+[2025.08.02-13.13.52:140][254]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/BlenderASSets/Character/AnimatedGuy_Anim_Root_RootAction] ([1] browsable assets)...
+[2025.08.02-13.13.52:153][254]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Assets/BlenderASSets/Character/AnimatedGuy_Anim_Root_RootAction.AnimatedGuy_Anim_Root_RootAction]
+[2025.08.02-13.13.52:153][254]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/BlenderASSets/Character/AnimatedGuy_Anim_Root_RootAction]
+[2025.08.02-13.13.52:168][254]LogSavePackage: Moving output files for package: /Game/Assets/BlenderASSets/Character/AnimatedGuy_Anim_Root_RootAction
+[2025.08.02-13.13.52:168][254]LogSavePackage: Moving 'D:/gamejam2/gamejam/GMTK2025/Saved/AnimatedGuy_Anim_Root_RootAction16D20D5748F7A8DBBBC8EE87FE7BA2CF.tmp' to 'D:/gamejam2/gamejam/GMTK2025/Content/Assets/BlenderASSets/Character/AnimatedGuy_Anim_Root_RootAction.uasset'
+[2025.08.02-13.13.52:171][254]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/BlenderASSets/Character/AnimatedGuy_Anim_Root_RootAction_001] ([1] browsable assets)...
+[2025.08.02-13.13.52:183][254]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Assets/BlenderASSets/Character/AnimatedGuy_Anim_Root_RootAction_001.AnimatedGuy_Anim_Root_RootAction_001]
+[2025.08.02-13.13.52:183][254]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/BlenderASSets/Character/AnimatedGuy_Anim_Root_RootAction_001]
+[2025.08.02-13.13.52:198][254]LogSavePackage: Moving output files for package: /Game/Assets/BlenderASSets/Character/AnimatedGuy_Anim_Root_RootAction_001
+[2025.08.02-13.13.52:198][254]LogSavePackage: Moving 'D:/gamejam2/gamejam/GMTK2025/Saved/AnimatedGuy_Anim_Root_RootAction84D5D7B844C1F62160C22ABA3A035BF3.tmp' to 'D:/gamejam2/gamejam/GMTK2025/Content/Assets/BlenderASSets/Character/AnimatedGuy_Anim_Root_RootAction_001.uasset'
+[2025.08.02-13.13.52:199][254]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/BlenderASSets/Character/AnimatedGuy_Anim_Root_mixamo_com] ([1] browsable assets)...
+[2025.08.02-13.13.52:210][254]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Assets/BlenderASSets/Character/AnimatedGuy_Anim_Root_mixamo_com.AnimatedGuy_Anim_Root_mixamo_com]
+[2025.08.02-13.13.52:210][254]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/BlenderASSets/Character/AnimatedGuy_Anim_Root_mixamo_com]
+[2025.08.02-13.13.52:225][254]LogSavePackage: Moving output files for package: /Game/Assets/BlenderASSets/Character/AnimatedGuy_Anim_Root_mixamo_com
+[2025.08.02-13.13.52:225][254]LogSavePackage: Moving 'D:/gamejam2/gamejam/GMTK2025/Saved/AnimatedGuy_Anim_Root_mixamo_com9790BD6244058BD9A97ABB9681E47806.tmp' to 'D:/gamejam2/gamejam/GMTK2025/Content/Assets/BlenderASSets/Character/AnimatedGuy_Anim_Root_mixamo_com.uasset'
+[2025.08.02-13.13.52:226][254]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/BlenderASSets/Character/AnimatedGuy_PhysicsAsset] ([1] browsable assets)...
+[2025.08.02-13.13.52:226][254]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_14
+[2025.08.02-13.13.52:250][254]OBJ SavePackage:     Rendered thumbnail for [PhysicsAsset /Game/Assets/BlenderASSets/Character/AnimatedGuy_PhysicsAsset.AnimatedGuy_PhysicsAsset]
+[2025.08.02-13.13.52:250][254]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/BlenderASSets/Character/AnimatedGuy_PhysicsAsset]
+[2025.08.02-13.13.52:260][254]LogSavePackage: Moving output files for package: /Game/Assets/BlenderASSets/Character/AnimatedGuy_PhysicsAsset
+[2025.08.02-13.13.52:260][254]LogSavePackage: Moving 'D:/gamejam2/gamejam/GMTK2025/Saved/AnimatedGuy_PhysicsAsset8AFFE1A54DC9631D9862E78B506CF075.tmp' to 'D:/gamejam2/gamejam/GMTK2025/Content/Assets/BlenderASSets/Character/AnimatedGuy_PhysicsAsset.uasset'
+[2025.08.02-13.13.52:261][254]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/BlenderASSets/Character/AnimatedGuy_PhysicsAsset1] ([1] browsable assets)...
+[2025.08.02-13.13.52:273][254]OBJ SavePackage:     Rendered thumbnail for [PhysicsAsset /Game/Assets/BlenderASSets/Character/AnimatedGuy_PhysicsAsset1.AnimatedGuy_PhysicsAsset1]
+[2025.08.02-13.13.52:273][254]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/BlenderASSets/Character/AnimatedGuy_PhysicsAsset1]
+[2025.08.02-13.13.52:283][254]LogSavePackage: Moving output files for package: /Game/Assets/BlenderASSets/Character/AnimatedGuy_PhysicsAsset1
+[2025.08.02-13.13.52:284][254]LogSavePackage: Moving 'D:/gamejam2/gamejam/GMTK2025/Saved/AnimatedGuy_PhysicsAsset1CC9DD41B4AB73E5A6C30E7AB199316D8.tmp' to 'D:/gamejam2/gamejam/GMTK2025/Content/Assets/BlenderASSets/Character/AnimatedGuy_PhysicsAsset1.uasset'
+[2025.08.02-13.13.52:285][254]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/BlenderASSets/Character/AnimatedGuy_Skeleton] ([1] browsable assets)...
+[2025.08.02-13.13.52:285][254]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_15
+[2025.08.02-13.13.52:316][254]OBJ SavePackage:     Rendered thumbnail for [Skeleton /Game/Assets/BlenderASSets/Character/AnimatedGuy_Skeleton.AnimatedGuy_Skeleton]
+[2025.08.02-13.13.52:316][254]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/BlenderASSets/Character/AnimatedGuy_Skeleton]
+[2025.08.02-13.13.52:316][254]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/BlenderASSets/Character/AnimatedGuy_Skeleton" FILE="D:/gamejam2/gamejam/GMTK2025/Content/Assets/BlenderASSets/Character/AnimatedGuy_Skeleton.uasset" SILENT=true
+[2025.08.02-13.13.52:325][254]LogSavePackage: Moving output files for package: /Game/Assets/BlenderASSets/Character/AnimatedGuy_Skeleton
+[2025.08.02-13.13.52:325][254]LogSavePackage: Moving 'D:/gamejam2/gamejam/GMTK2025/Saved/AnimatedGuy_Skeleton5C7C3DEF479A07C58EAE42B5416DF872.tmp' to 'D:/gamejam2/gamejam/GMTK2025/Content/Assets/BlenderASSets/Character/AnimatedGuy_Skeleton.uasset'
+[2025.08.02-13.13.52:327][254]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/BlenderASSets/ToiletBrush/Material] ([1] browsable assets)...
+[2025.08.02-13.13.54:227][254]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/BlenderASSets/ToiletBrush/Material.Material]
+[2025.08.02-13.13.54:227][254]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/BlenderASSets/ToiletBrush/Material]
+[2025.08.02-13.13.54:227][254]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/BlenderASSets/ToiletBrush/Material" FILE="D:/gamejam2/gamejam/GMTK2025/Content/Assets/BlenderASSets/ToiletBrush/Material.uasset" SILENT=true
+[2025.08.02-13.13.54:241][254]LogSavePackage: Moving output files for package: /Game/Assets/BlenderASSets/ToiletBrush/Material
+[2025.08.02-13.13.54:241][254]LogSavePackage: Moving 'D:/gamejam2/gamejam/GMTK2025/Saved/Material6B1D15774D31A77867419FB1A6170212.tmp' to 'D:/gamejam2/gamejam/GMTK2025/Content/Assets/BlenderASSets/ToiletBrush/Material.uasset'
+[2025.08.02-13.13.54:242][254]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/BlenderASSets/Character/Mom] ([1] browsable assets)...
+[2025.08.02-13.13.54:262][254]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/BlenderASSets/Character/Mom.Mom]
+[2025.08.02-13.13.54:262][254]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/BlenderASSets/Character/Mom]
+[2025.08.02-13.13.54:262][254]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/BlenderASSets/Character/Mom" FILE="D:/gamejam2/gamejam/GMTK2025/Content/Assets/BlenderASSets/Character/Mom.uasset" SILENT=true
+[2025.08.02-13.13.54:272][254]LogSavePackage: Moving output files for package: /Game/Assets/BlenderASSets/Character/Mom
+[2025.08.02-13.13.54:272][254]LogSavePackage: Moving 'D:/gamejam2/gamejam/GMTK2025/Saved/Mom1943725841F045DBDE0F1DB04B7032D3.tmp' to 'D:/gamejam2/gamejam/GMTK2025/Content/Assets/BlenderASSets/Character/Mom.uasset'
+[2025.08.02-13.13.54:274][254]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/BlenderASSets/Character/Mom_Skeleton] ([1] browsable assets)...
+[2025.08.02-13.13.54:274][254]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_16
+[2025.08.02-13.13.54:309][254]OBJ SavePackage:     Rendered thumbnail for [Skeleton /Game/Assets/BlenderASSets/Character/Mom_Skeleton.Mom_Skeleton]
+[2025.08.02-13.13.54:309][254]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/BlenderASSets/Character/Mom_Skeleton]
+[2025.08.02-13.13.54:309][254]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/BlenderASSets/Character/Mom_Skeleton" FILE="D:/gamejam2/gamejam/GMTK2025/Content/Assets/BlenderASSets/Character/Mom_Skeleton.uasset" SILENT=true
+[2025.08.02-13.13.54:319][254]LogSavePackage: Moving output files for package: /Game/Assets/BlenderASSets/Character/Mom_Skeleton
+[2025.08.02-13.13.54:319][254]LogSavePackage: Moving 'D:/gamejam2/gamejam/GMTK2025/Saved/Mom_SkeletonD4342E0A42006B4C22D41E80218BEF6B.tmp' to 'D:/gamejam2/gamejam/GMTK2025/Content/Assets/BlenderASSets/Character/Mom_Skeleton.uasset'
+[2025.08.02-13.13.54:320][254]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/BlenderASSets/ToiletBrush/ToilBrush] ([1] browsable assets)...
+[2025.08.02-13.13.54:320][254]LogMaterial: Display: Material /Game/Assets/BlenderASSets/ToiletBrush/handle.handle needed to have new flag set bUsedWithNanite !
+[2025.08.02-13.13.54:324][254]LogMaterial: Display: Material /Game/Assets/BlenderASSets/ToiletBrush/Material.Material needed to have new flag set bUsedWithNanite !
+[2025.08.02-13.13.54:361][254]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/BlenderASSets/ToiletBrush/ToilBrush.ToilBrush]
+[2025.08.02-13.13.54:362][254]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/BlenderASSets/ToiletBrush/ToilBrush]
+[2025.08.02-13.13.54:362][254]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/BlenderASSets/ToiletBrush/ToilBrush" FILE="D:/gamejam2/gamejam/GMTK2025/Content/Assets/BlenderASSets/ToiletBrush/ToilBrush.uasset" SILENT=true
+[2025.08.02-13.13.54:380][254]LogSavePackage: Moving output files for package: /Game/Assets/BlenderASSets/ToiletBrush/ToilBrush
+[2025.08.02-13.13.54:380][254]LogSavePackage: Moving 'D:/gamejam2/gamejam/GMTK2025/Saved/ToilBrush6129ACAB45C90515075801A86F80CF3A.tmp' to 'D:/gamejam2/gamejam/GMTK2025/Content/Assets/BlenderASSets/ToiletBrush/ToilBrush.uasset'
+[2025.08.02-13.13.54:381][254]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/BlenderASSets/Character/char] ([1] browsable assets)...
+[2025.08.02-13.13.54:381][254]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_17
+[2025.08.02-13.13.54:411][254]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/Assets/BlenderASSets/Character/char.char]
+[2025.08.02-13.13.54:411][254]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/BlenderASSets/Character/char]
+[2025.08.02-13.13.54:411][254]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/BlenderASSets/Character/char" FILE="D:/gamejam2/gamejam/GMTK2025/Content/Assets/BlenderASSets/Character/char.uasset" SILENT=true
+[2025.08.02-13.13.54:425][254]LogSavePackage: Moving output files for package: /Game/Assets/BlenderASSets/Character/char
+[2025.08.02-13.13.54:425][254]LogSavePackage: Moving 'D:/gamejam2/gamejam/GMTK2025/Saved/charA8483F23491F3AFE660261BAE80A0293.tmp' to 'D:/gamejam2/gamejam/GMTK2025/Content/Assets/BlenderASSets/Character/char.uasset'
+[2025.08.02-13.13.54:427][254]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/BlenderASSets/Character/char_PhysicsAsset] ([1] browsable assets)...
+[2025.08.02-13.13.54:456][254]OBJ SavePackage:     Rendered thumbnail for [PhysicsAsset /Game/Assets/BlenderASSets/Character/char_PhysicsAsset.char_PhysicsAsset]
+[2025.08.02-13.13.54:456][254]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/BlenderASSets/Character/char_PhysicsAsset]
+[2025.08.02-13.13.54:456][254]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/BlenderASSets/Character/char_PhysicsAsset" FILE="D:/gamejam2/gamejam/GMTK2025/Content/Assets/BlenderASSets/Character/char_PhysicsAsset.uasset" SILENT=true
+[2025.08.02-13.13.54:469][254]LogSavePackage: Moving output files for package: /Game/Assets/BlenderASSets/Character/char_PhysicsAsset
+[2025.08.02-13.13.54:469][254]LogSavePackage: Moving 'D:/gamejam2/gamejam/GMTK2025/Saved/char_PhysicsAsset447671C5479BBFA54115B78F449A7976.tmp' to 'D:/gamejam2/gamejam/GMTK2025/Content/Assets/BlenderASSets/Character/char_PhysicsAsset.uasset'
+[2025.08.02-13.13.54:470][254]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/BlenderASSets/Character/criminalMaleA] ([1] browsable assets)...
+[2025.08.02-13.13.54:474][254]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Assets/BlenderASSets/Character/criminalMaleA.criminalMaleA]
+[2025.08.02-13.13.54:474][254]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/BlenderASSets/Character/criminalMaleA]
+[2025.08.02-13.13.54:474][254]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/BlenderASSets/Character/criminalMaleA" FILE="D:/gamejam2/gamejam/GMTK2025/Content/Assets/BlenderASSets/Character/criminalMaleA.uasset" SILENT=true
+[2025.08.02-13.13.54:490][254]LogSavePackage: Moving output files for package: /Game/Assets/BlenderASSets/Character/criminalMaleA
+[2025.08.02-13.13.54:490][254]LogSavePackage: Moving 'D:/gamejam2/gamejam/GMTK2025/Saved/criminalMaleA7F5C06C94D0B58F66DD719A2ECEC7430.tmp' to 'D:/gamejam2/gamejam/GMTK2025/Content/Assets/BlenderASSets/Character/criminalMaleA.uasset'
+[2025.08.02-13.13.54:491][254]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/BlenderASSets/Character/female1] ([1] browsable assets)...
+[2025.08.02-13.13.54:529][254]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/BlenderASSets/Character/female1.female1]
+[2025.08.02-13.13.54:529][254]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/BlenderASSets/Character/female1]
+[2025.08.02-13.13.54:529][254]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/BlenderASSets/Character/female1" FILE="D:/gamejam2/gamejam/GMTK2025/Content/Assets/BlenderASSets/Character/female1.uasset" SILENT=true
+[2025.08.02-13.13.54:542][254]LogSavePackage: Moving output files for package: /Game/Assets/BlenderASSets/Character/female1
+[2025.08.02-13.13.54:542][254]LogSavePackage: Moving 'D:/gamejam2/gamejam/GMTK2025/Saved/female1D732A11A4CEE32F515CCFDA9BF2CBF07.tmp' to 'D:/gamejam2/gamejam/GMTK2025/Content/Assets/BlenderASSets/Character/female1.uasset'
+[2025.08.02-13.13.54:543][254]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/BlenderASSets/Character/guy1] ([1] browsable assets)...
+[2025.08.02-13.13.54:588][254]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/BlenderASSets/Character/guy1.guy1]
+[2025.08.02-13.13.54:588][254]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/BlenderASSets/Character/guy1]
+[2025.08.02-13.13.54:588][254]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/BlenderASSets/Character/guy1" FILE="D:/gamejam2/gamejam/GMTK2025/Content/Assets/BlenderASSets/Character/guy1.uasset" SILENT=true
+[2025.08.02-13.13.54:599][254]LogSavePackage: Moving output files for package: /Game/Assets/BlenderASSets/Character/guy1
+[2025.08.02-13.13.54:600][254]LogSavePackage: Moving 'D:/gamejam2/gamejam/GMTK2025/Saved/guy1C904035248A5900CBBD2489FF860694E.tmp' to 'D:/gamejam2/gamejam/GMTK2025/Content/Assets/BlenderASSets/Character/guy1.uasset'
+[2025.08.02-13.13.54:601][254]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/BlenderASSets/Character/guy2] ([1] browsable assets)...
+[2025.08.02-13.13.54:619][254]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/BlenderASSets/Character/guy2.guy2]
+[2025.08.02-13.13.54:619][254]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/BlenderASSets/Character/guy2]
+[2025.08.02-13.13.54:619][254]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/BlenderASSets/Character/guy2" FILE="D:/gamejam2/gamejam/GMTK2025/Content/Assets/BlenderASSets/Character/guy2.uasset" SILENT=true
+[2025.08.02-13.13.54:631][254]LogSavePackage: Moving output files for package: /Game/Assets/BlenderASSets/Character/guy2
+[2025.08.02-13.13.54:631][254]LogSavePackage: Moving 'D:/gamejam2/gamejam/GMTK2025/Saved/guy2E1798D8348183A2DBDD2E2BE80AFB27B.tmp' to 'D:/gamejam2/gamejam/GMTK2025/Content/Assets/BlenderASSets/Character/guy2.uasset'
+[2025.08.02-13.13.54:632][254]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/BlenderASSets/ToiletBrush/handle] ([1] browsable assets)...
+[2025.08.02-13.13.54:632][254]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/BlenderASSets/ToiletBrush/handle]
+[2025.08.02-13.13.54:632][254]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/BlenderASSets/ToiletBrush/handle" FILE="D:/gamejam2/gamejam/GMTK2025/Content/Assets/BlenderASSets/ToiletBrush/handle.uasset" SILENT=true
+[2025.08.02-13.13.54:643][254]LogSavePackage: Moving output files for package: /Game/Assets/BlenderASSets/ToiletBrush/handle
+[2025.08.02-13.13.54:643][254]LogSavePackage: Moving 'D:/gamejam2/gamejam/GMTK2025/Saved/handle4433B2C84F0B7A6455032BBE565576BD.tmp' to 'D:/gamejam2/gamejam/GMTK2025/Content/Assets/BlenderASSets/ToiletBrush/handle.uasset'
+[2025.08.02-13.13.54:645][254]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/BlenderASSets/Character/skaterFemaleA] ([1] browsable assets)...
+[2025.08.02-13.13.54:649][254]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Assets/BlenderASSets/Character/skaterFemaleA.skaterFemaleA]
+[2025.08.02-13.13.54:650][254]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/BlenderASSets/Character/skaterFemaleA]
+[2025.08.02-13.13.54:650][254]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/BlenderASSets/Character/skaterFemaleA" FILE="D:/gamejam2/gamejam/GMTK2025/Content/Assets/BlenderASSets/Character/skaterFemaleA.uasset" SILENT=true
+[2025.08.02-13.13.54:669][254]LogSavePackage: Moving output files for package: /Game/Assets/BlenderASSets/Character/skaterFemaleA
+[2025.08.02-13.13.54:669][254]LogSavePackage: Moving 'D:/gamejam2/gamejam/GMTK2025/Saved/skaterFemaleA584089FB49CCCD2933877AACA84FE51D.tmp' to 'D:/gamejam2/gamejam/GMTK2025/Content/Assets/BlenderASSets/Character/skaterFemaleA.uasset'
+[2025.08.02-13.13.54:671][254]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/BlenderASSets/Character/skaterMaleA] ([1] browsable assets)...
+[2025.08.02-13.13.54:673][254]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Assets/BlenderASSets/Character/skaterMaleA.skaterMaleA]
+[2025.08.02-13.13.54:673][254]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/BlenderASSets/Character/skaterMaleA]
+[2025.08.02-13.13.54:673][254]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/BlenderASSets/Character/skaterMaleA" FILE="D:/gamejam2/gamejam/GMTK2025/Content/Assets/BlenderASSets/Character/skaterMaleA.uasset" SILENT=true
+[2025.08.02-13.13.54:691][254]LogSavePackage: Moving output files for package: /Game/Assets/BlenderASSets/Character/skaterMaleA
+[2025.08.02-13.13.54:691][254]LogSavePackage: Moving 'D:/gamejam2/gamejam/GMTK2025/Saved/skaterMaleACE156CA94DFB98879F8FCC8BDDF3145E.tmp' to 'D:/gamejam2/gamejam/GMTK2025/Content/Assets/BlenderASSets/Character/skaterMaleA.uasset'
+[2025.08.02-13.13.54:692][254]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/BlenderASSets/Character/skin_001] ([1] browsable assets)...
+[2025.08.02-13.13.54:710][254]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/BlenderASSets/Character/skin_001.skin_001]
+[2025.08.02-13.13.54:710][254]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/BlenderASSets/Character/skin_001]
+[2025.08.02-13.13.54:710][254]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/BlenderASSets/Character/skin_001" FILE="D:/gamejam2/gamejam/GMTK2025/Content/Assets/BlenderASSets/Character/skin_001.uasset" SILENT=true
+[2025.08.02-13.13.54:721][254]LogSavePackage: Moving output files for package: /Game/Assets/BlenderASSets/Character/skin_001
+[2025.08.02-13.13.54:721][254]LogSavePackage: Moving 'D:/gamejam2/gamejam/GMTK2025/Saved/skin_001F4D801C340B85664C8A433B91C81DCF6.tmp' to 'D:/gamejam2/gamejam/GMTK2025/Content/Assets/BlenderASSets/Character/skin_001.uasset'
+[2025.08.02-13.13.55:083][254]LogFileHelpers: InternalPromptForCheckoutAndSave took 3.42 sec (total: 3.83 sec)
+[2025.08.02-13.13.55:173][254]LogStall: Shutdown...
+[2025.08.02-13.13.55:173][254]LogStall: Shutdown complete.
+[2025.08.02-13.13.55:267][254]LogSlate: Window 'GMTK2025 - Unreal Editor' being destroyed
+[2025.08.02-13.13.55:372][254]LogContentValidation: Display: Starting to validate 26 assets
+[2025.08.02-13.13.55:372][254]LogContentValidation: Enabled validators:
+[2025.08.02-13.13.55:372][254]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.08.02-13.13.55:372][254]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.08.02-13.13.55:372][254]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.08.02-13.13.55:372][254]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.08.02-13.13.55:372][254]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.08.02-13.13.55:372][254]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.08.02-13.13.55:372][254]AssetCheck: /Game/Level/L_Test Validating asset
+[2025.08.02-13.13.55:372][254]AssetCheck: /Game/Assets/BlenderASSets/Character/AnimatedGuy Validating asset
+[2025.08.02-13.13.55:372][254]AssetCheck: /Game/Assets/BlenderASSets/Character/AnimatedGuy1 Validating asset
+[2025.08.02-13.13.55:372][254]AssetCheck: /Game/Assets/BlenderASSets/Character/AnimatedGuy_Anim_Mom_RootAction Validating asset
+[2025.08.02-13.13.55:372][254]AssetCheck: /Game/Assets/BlenderASSets/Character/AnimatedGuy_Anim_Mom_RootAction_001 Validating asset
+[2025.08.02-13.13.55:372][254]AssetCheck: /Game/Assets/BlenderASSets/Character/AnimatedGuy_Anim_Mom_mixamo_com Validating asset
+[2025.08.02-13.13.55:372][254]AssetCheck: /Game/Assets/BlenderASSets/Character/AnimatedGuy_Anim_Root_RootAction Validating asset
+[2025.08.02-13.13.55:372][254]AssetCheck: /Game/Assets/BlenderASSets/Character/AnimatedGuy_Anim_Root_RootAction_001 Validating asset
+[2025.08.02-13.13.55:372][254]AssetCheck: /Game/Assets/BlenderASSets/Character/AnimatedGuy_Anim_Root_mixamo_com Validating asset
+[2025.08.02-13.13.55:372][254]AssetCheck: /Game/Assets/BlenderASSets/Character/AnimatedGuy_PhysicsAsset Validating asset
+[2025.08.02-13.13.55:373][254]AssetCheck: /Game/Assets/BlenderASSets/Character/AnimatedGuy_PhysicsAsset1 Validating asset
+[2025.08.02-13.13.55:373][254]AssetCheck: /Game/Assets/BlenderASSets/Character/AnimatedGuy_Skeleton Validating asset
+[2025.08.02-13.13.55:373][254]AssetCheck: /Game/Assets/BlenderASSets/ToiletBrush/Material Validating asset
+[2025.08.02-13.13.55:373][254]AssetCheck: /Game/Assets/BlenderASSets/Character/Mom Validating asset
+[2025.08.02-13.13.55:373][254]AssetCheck: /Game/Assets/BlenderASSets/Character/Mom_Skeleton Validating asset
+[2025.08.02-13.13.55:373][254]AssetCheck: /Game/Assets/BlenderASSets/ToiletBrush/ToilBrush Validating asset
+[2025.08.02-13.13.55:373][254]AssetCheck: /Game/Assets/BlenderASSets/Character/char Validating asset
+[2025.08.02-13.13.55:373][254]AssetCheck: Error: [AssetLog] D:\gamejam2\gamejam\GMTK2025\Content\Assets\BlenderASSets\Character\char.uasset: This skeletal mesh asset has an incompatible Skeleton. Assign a compatible skeleton to this skeletal mesh asset.
+[2025.08.02-13.13.55:373][254]AssetCheck: /Game/Assets/BlenderASSets/Character/char_PhysicsAsset Validating asset
+[2025.08.02-13.13.55:373][254]AssetCheck: /Game/Assets/BlenderASSets/Character/criminalMaleA Validating asset
+[2025.08.02-13.13.55:373][254]AssetCheck: /Game/Assets/BlenderASSets/Character/female1 Validating asset
+[2025.08.02-13.13.55:373][254]AssetCheck: /Game/Assets/BlenderASSets/Character/guy1 Validating asset
+[2025.08.02-13.13.55:373][254]AssetCheck: /Game/Assets/BlenderASSets/Character/guy2 Validating asset
+[2025.08.02-13.13.55:373][254]AssetCheck: /Game/Assets/BlenderASSets/ToiletBrush/handle Validating asset
+[2025.08.02-13.13.55:373][254]AssetCheck: /Game/Assets/BlenderASSets/Character/skaterFemaleA Validating asset
+[2025.08.02-13.13.55:373][254]AssetCheck: /Game/Assets/BlenderASSets/Character/skaterMaleA Validating asset
+[2025.08.02-13.13.55:373][254]AssetCheck: /Game/Assets/BlenderASSets/Character/skin_001 Validating asset
+[2025.08.02-13.13.55:509][254]Cmd: QUIT_EDITOR
+[2025.08.02-13.13.55:509][255]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2025.08.02-13.13.55:516][255]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2025.08.02-13.13.55:541][255]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2025.08.02-13.13.55:541][255]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2025.08.02-13.13.55:543][255]LogWorld: UWorld::CleanupWorld for L_Test, bSessionEnded=true, bCleanupResources=true
+[2025.08.02-13.13.55:543][255]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.08.02-13.13.55:543][255]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.02-13.13.55:571][255]LogStylusInput: Shutting down StylusInput subsystem.
+[2025.08.02-13.13.55:571][255]LogTedsSettings: UTedsSettingsEditorSubsystem::Deinitialize
+[2025.08.02-13.13.55:572][255]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2025.08.02-13.13.55:574][255]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2025.08.02-13.13.55:574][255]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.02-13.13.55:575][255]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2025.08.02-13.13.55:575][255]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.02-13.13.55:575][255]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2025.08.02-13.13.55:575][255]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.02-13.13.55:575][255]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2025.08.02-13.13.55:575][255]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.02-13.13.55:575][255]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2025.08.02-13.13.55:575][255]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.02-13.13.55:576][255]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2025.08.02-13.13.55:576][255]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.02-13.13.55:576][255]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2025.08.02-13.13.55:576][255]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.02-13.13.55:576][255]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2025.08.02-13.13.55:576][255]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.02-13.13.55:576][255]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2025.08.02-13.13.55:576][255]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.02-13.13.55:577][255]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2025.08.02-13.13.55:577][255]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.02-13.13.55:577][255]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2025.08.02-13.13.55:577][255]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.02-13.13.55:577][255]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2025.08.02-13.13.55:577][255]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.02-13.13.55:577][255]LogRuntimeTelemetry: Recording EnginePreExit events
+[2025.08.02-13.13.55:577][255]LogHttp: Warning: 	Sleeping 0.500s to wait for 1 outstanding Http Requests.
+[2025.08.02-13.13.56:078][255]LogStudioTelemetry: Ended StudioTelemetry Session
+[2025.08.02-13.13.56:083][255]LogAnalytics: Display: [UEEditor.Rocket.Release] AnalyticsET::EndSession
+[2025.08.02-13.13.56:260][255]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2025.08.02-13.13.56:260][255]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2025.08.02-13.13.56:260][255]LogAudio: Display: Audio Device unregistered from world 'L_Test'.
+[2025.08.02-13.13.56:260][255]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2025.08.02-13.13.56:260][255]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=4
+[2025.08.02-13.13.56:262][255]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=2
+[2025.08.02-13.13.56:270][255]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2025.08.02-13.13.56:270][255]LogAudio: Display: Audio Device Manager Shutdown
+[2025.08.02-13.13.56:272][255]LogWindowsTextInputMethodSystem: Activated input method: Hungarian (Hungary) - (Keyboard).
+[2025.08.02-13.13.56:274][255]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2025.08.02-13.13.56:275][255]LogExit: Preparing to exit.
+[2025.08.02-13.13.56:326][255]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2025.08.02-13.13.57:136][255]LogEditorDataStorage: Deinitializing
+[2025.08.02-13.13.57:224][255]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2025.08.02-13.13.57:236][255]LogExit: Editor shut down
+[2025.08.02-13.13.57:239][255]LogExit: Transaction tracking system shut down
+[2025.08.02-13.13.57:331][255]LogExit: Object subsystem successfully closed.
+[2025.08.02-13.13.57:370][255]LogShaderCompilers: Display: Shaders left to compile 0
+[2025.08.02-13.13.57:581][255]LogMemoryProfiler: Shutdown
+[2025.08.02-13.13.57:581][255]LogNetworkingProfiler: Shutdown
+[2025.08.02-13.13.57:581][255]LoadingProfiler: Shutdown
+[2025.08.02-13.13.57:581][255]LogTimingProfiler: Shutdown
+[2025.08.02-13.13.57:581][255]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDGenericDebugDrawExtension] ...
+[2025.08.02-13.13.57:581][255]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDAccelerationStructuresExtension] ...
+[2025.08.02-13.13.58:204][255]LogChaosDD: Chaos Debug Draw Shutdown
+[2025.08.02-13.13.58:210][255]LogNFORDenoise: NFORDenoise function shutting down
+[2025.08.02-13.13.58:210][255]RenderDocPlugin: plugin has been unloaded.
+[2025.08.02-13.13.58:252][255]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2025.08.02-13.13.58:252][255]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5B096695-48EC-04A1-0392-2FAC77C9D2B1%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.0-43139311%2B%2B%2BUE5%2BRelease-5.6&UserID=adf2059f4a71e8c830ed769e517c5f22%7C93ca22a9138b46d0a97fde44e2668cf7%7C639b9791-08e0-4d93-919a-11db2d816fc0&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2025.08.02-13.13.58:798][255]LogEOSShared: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2025.08.02-13.13.58:798][255]LogXGEController: Cleaning working directory: C:/Users/Bello/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2025.08.02-13.13.58:801][255]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+[2025.08.02-13.13.58:801][255]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+[2025.08.02-13.13.58:801][255]LogPakFile: Destroying PakPlatformFile
+[2025.08.02-13.13.58:972][255]LogD3D12RHI: ~FD3D12DynamicRHI
+[2025.08.02-13.13.59:006][255]LogExit: Exiting.
+[2025.08.02-13.13.59:025][255]Log file closed, 08/02/25 15:13:59
